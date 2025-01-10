@@ -1,0 +1,55 @@
+Day 1 
+     Installation and other introduction part
+
+
+    Day 2 
+       JS
+           synchronous 
+           single threaded
+           blocking language
+     data 
+          1 , 2 , 3.5 =>number
+         "a" , "sujan" , "1" =>string
+          true , false => boolean
+     variable 
+          define variable
+          call variable
+     operator
+          
+     Day 3 
+              function
+                   function define
+                   function call
+                   function execution 
+                   pass value
+                   default value
+                  return
+                  default return
+             function  
+                  without return       fun()
+                  with return     let value=fun()
+     Day 4
+        array
+                 - array help organize multiple values under a single name.
+                 - indexing starts at 0,which means the first element is at position 0.
+                 - we can easily access,modify,or add items to an array
+
+     Day 5 
+        when to use map
+                 - input and output (both array)
+                 -  and input and output length is same
+                 - [1,2,3]=[2,3,6]  (we can ue map)
+                 - [1,2,3]=[2,3,6,8]  (we can not use map) because output and input length does not macth
+                 - ["s","u","j","a","n"] => ["S","u","j","a","n"]  can use map
+                 -  "sujan" => ["S","u","j","a","n"]  can not use map
+                 - ["S","u","j","a","n"] =>"sujan  can not use map
+       when to use filter
+               - input and output must be array 
+               -  is used to filter element 
+                - output element are from the input element
+                 - [1,2,3]=>[1,2]  can use filter 
+                  - [1,2,3]=>[4,1] can not use filter 
+                 - "sujan"=>"suj" can not use filter
+
+
+     
