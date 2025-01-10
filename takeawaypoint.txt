@@ -50,6 +50,42 @@ Day 1
                  - [1,2,3]=>[1,2]  can use filter 
                   - [1,2,3]=>[4,1] can not use filter 
                  - "sujan"=>"suj" can not use filter
+     import and export
+          how to write path
+                . means its own folder
+                .. means parent folder
+                / is used to say arko
+
+          example 1: lets import anything from a file
+                   src
+                       a.js
+                       b.js
+                       folder1
+                            c.js
+                            folder2
+                                d.js    "../../a.js"
+          which is the folder of d
+          which is the folder of folder2
+          which is the parent of folder2
+
+          example 2 lets import any thing from c filter
+                        src
+                            a.js
+                            b.js
+                            folder1
+                                  c.js
+                                  folder2
+                                       d.js      "../c.js"
+          example 3 lets import any thing from d (a)
+                           src
+                              a.js   "./folder1/folder2/d.js"
+                              b.js
+                              folder1
+                                   c.js
+                                   folder2
+                                        d.js
+
+
 
 
      
